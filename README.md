@@ -1,6 +1,3 @@
-> [!NOTE]
-> This project is in its initial stages of development, so it may take quite some time to release the first beta version.
-
 > [!TIP]
 > Currently, the website only supports Vietnamese. You should use a translator if you don't understand.
 
