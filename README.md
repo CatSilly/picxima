@@ -1,3 +1,6 @@
+> [!NOTE]
+> This website has officially launched, [access it here!](https://catsilly.github.io/picxima/)
+
 > [!TIP]
 > Currently, the website only supports Vietnamese. You should use a translator if you don't understand.
 
