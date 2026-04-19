@@ -1,5 +1,5 @@
 <!doctype html><html lang=vi><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><title>PicXima</title><link rel=stylesheet href=style.css><header><span class=logo>Pic<em>Xima</em></span>
-<span class=tagline>or Proximagic Tools™ remake ig...</span></header><main><label id=dropzone><input type=file id=fileInput accept=image/* multiple><div class=drop-icon>⊕</div><p>Kéo thả hoặc <u>chọn ảnh</u></p><span class=hint>PNG · JPG · WEBP · GIF · BMP</span></label><section id=controls class=hidden><div id=modeTabs><button class="mode-tab active" data-mode=convert>⇄ Convert</button>
+<span class=tagline>or Proximagic Tools™ remake ig...</span></header><main><div id=dropzone><input type=file id=fileInput accept=image/* multiple><div class=drop-icon>⊕</div><p>Kéo thả hoặc <u>chọn ảnh</u></p><span class=hint>PNG · JPG · WEBP · GIF · BMP</span></div><section id=controls class=hidden><div id=modeTabs><button class="mode-tab active" data-mode=convert>⇄ Convert</button>
 <button class=mode-tab data-mode=compress>⊙ Nén ảnh</button></div><div id=panel-convert class=panel><div class=control-row><label>Định dạng</label><div id=formatGroup><button class="fmt active" data-fmt=image/jpeg>JPG</button>
 <button class=fmt data-fmt=image/png>PNG</button>
 <button class=fmt data-fmt=image/webp>WEBP</button>
@@ -8,5 +8,4 @@
 <input type=range id=scale min=10 max=100 value=100></div></div><div id=panel-compress class="panel hidden"><div class=control-row><label>Chất lượng <b id=qualityVal>82</b>%</label>
 <input type=range id=quality min=1 max=100 value=82></div><div class=control-row><label>Resize <b id=scaleVal2>100</b>%</label>
 <input type=range id=scale2 min=10 max=100 value=100></div><p class=panel-note>Xuất về JPG · giảm dung lượng tối đa</div><div class=btn-row><button id=convertBtn>Xử lý tất cả</button>
-<button id=clearBtn>Xóa</button></div></section><div id=grid></div></main><canvas id=canvas hidden></canvas>
-<script src=app.js></script>
+<button id=clearBtn>Xóa</button></div></section><div id=grid></div></main><canvas id=canvas hidden></canvas><div id=toast-container aria-live=assertive aria-atomic=false></div><script src=app.js></script>
